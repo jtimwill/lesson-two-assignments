@@ -7,7 +7,7 @@
 
 #I watched the solution, so I know that I didn't do a great job converting 
 #this assignment to OOP. It difficult for me to differentiate between a class
-#and an instance variable. What is a good rule of thumb?
+#and an instance variable.
 class RPS 
   attr_accessor :user_input, :computer_input_string, :user_input_array
 
