@@ -2,6 +2,8 @@
 ####################
 #Tic Tac Toe OOP Attempt
 #Tim Williams 1/28/2015
+#Note: this program was apdapted from the precdural tic-tac-toe solution 
+#created by the instructors at Tealeaf Academy. 
 #####################
 
 #Nouns: Player, Human, Computer, GameBoard, Game
