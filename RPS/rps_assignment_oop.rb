@@ -10,13 +10,7 @@
 #and an instance variable.
 class RPS 
   attr_accessor :user_input, :computer_input_string, :user_input_array
-
-
-  def who_won?
-    op_hash = {"1" => "+" , "2" => "-", "3" => "*", "4" => "/"}
-    puts "#{first_number} #{op_hash[operator]} #{second_number} = #{result}"
-  end 
-
+  
   def get_user_input
     #                  W          L       T
     rock_array     = ["scissors","paper","rock"]
@@ -45,9 +39,7 @@ class RPS
   end 
 
   def get_computer_input
-
     self.computer_input_string = ["rock","scissors","paper"].sample 
-
   end 
 
   def display_winner
@@ -59,7 +51,6 @@ class RPS
     elsif computer_input_string == user_input_array[2]
       puts "You picked #{user_input_array[2]}. The computer picked #{computer_input_string}. You tied"
     end 
-
   end 
 
   def run
